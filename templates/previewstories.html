@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cyber Digest</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'css/mystyle.css'%}" />
+</head>
+
+<body>
+  <!-- As a heading -->
+  <nav class="navbar fixed-top navbar-light" style="background-color: #5f6caf;">
+    <span class="navbar-brand mb-0 h1" style="color: white">Cyber Digest</span>
+  </nav>
+
+<div class="list-group" id = "list" style="margin-top:64px; margin-left:10px; margin-right:10px">
+  <div>
+      <object type="text/html" data="https://indianexpress.com/article/technology/mobile-tabs/new-samsung-patent-hints-at-improved-night-mode-is-coming-to-galaxy-s20-6246854/" width="800px" height="600px" style="overflow:auto;border:5px ridge blue">
+      </object>
+   </div>
+</div>
+
+<script src="{% static 'js/testing.js' %}" charset="utf-8"></script>
+
+</body>
+
+</html>
